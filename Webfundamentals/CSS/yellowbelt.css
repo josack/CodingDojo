@@ -1,0 +1,291 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+#container{
+  width: 960px;
+  height: 1000px;
+  margin: 0px auto;
+  padding: 5px;
+}
+  #header{
+    width: 800px;
+    height: 40px;
+    background: linear-gradient(white, white, silver);
+    border-radius: 10px;
+  }
+  #header ul li{
+    display: inline-block;
+    border-radius: 10px;
+    vertical-align: top;
+  }
+  #header ul li b{
+    margin-left: 30px;
+    line-height: 30px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  #header input{
+    padding: 0px 30px 0px 30px;
+    margin-left: 140px;
+    margin-top: 5px;
+  }
+  #header ul li:first-child img{
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  #header ul li:last-child img{
+    margin-top: 5px;
+  }
+  #body{
+    width: 960px;
+    height: 600px;
+    background-color: orange;
+  }
+  #bible{
+    width: 800px;
+    height: 325px;
+    background: linear-gradient(to bottom right, grey, black);
+    margin-top: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius:10px;
+  }
+
+  #bible img{
+    display: block;
+    width: 800px;
+    height: 300px;
+  }
+  #bible ul li{
+    display: inline-block;
+    margin-left: 30px;
+  }
+  #bible ul li b::after {
+    content:"/";
+    margin-left: 5px;
+  }
+  #bible ul li:last-child b::after{
+    content: none;
+  }
+  #bible ul li b{
+    color: #84BCDD;
+    font-size: 12px;
+  }
+  #bible h4{
+    color: white;
+  }
+  #discover{
+    width: 960px;
+    height: 70px;
+    background-color: white;
+    margin: 20px;
+  }
+  #discover ul li{
+    display: inline-block;
+    padding: 20px;
+    margin-left:20px;
+    margin-right: 60px;
+  }
+  #discover input{
+    background: #497FA5;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+  }
+  #discover li h2{
+    color: silver;
+    font-family: sans-serif;
+  }
+  #fourbox{
+    width: 800px;
+    height: 250px;
+    margin-left: 20px;
+    vertical-align: top;
+  }
+  .video{
+    height: 250px;
+    width: 190px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .video ul li{
+    display: block;
+    margin: 10px;
+    font-size: 14px;
+    margin-left: 20px;
+  }
+  .video ul li b{
+    margin-left: 15px;
+  }
+  .video input{
+    padding: 5px 20px 5px 20px;
+    margin-left: 10px;
+    background-color: #5BA6DD;
+    color: white;
+  }
+  .tourof{
+    height: 250px;
+    width: 190px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .tourof ul li{
+    display: block;
+    margin: 10px;
+    font-size: 14px;
+    margin-left: 20px;
+  }
+  .tourof ul li b{
+    margin-left: 15px;
+  }
+  .tourof input{
+    padding:5px 20px 5px 20px;
+    margin-left: 10px;
+    vertical-align: bottom;
+    background-color: #5BA6DD;
+    color: white;
+  }
+  .freetrial{
+    height: 250px;
+    width: 190px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .freetrial ul li{
+    display: block;
+    margin: 10px;
+    font-size: 14px;
+    margin-left: 20px;
+  }
+  .freetrial ul li b{
+    margin-left: 15px;
+  }
+  .freetrial input{
+    padding:5px 20px 5px 20px;
+    margin-left: 10px;
+    background-color: #5BA6DD;
+    color: white;
+  }
+  .readytobuy{
+    height: 250px;
+    width: 180px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .readytobuy ul li{
+    display: block;
+    margin: 10px;
+    font-size: 14px;
+    margin-left: 20px;
+  }
+  .readytobuy ul li b{
+    margin-left: 15px;
+  }
+  .readytobuy input{
+    padding:5px 20px 5px 20px;
+    margin-left: 10px;
+    background-color: #5BA6DD;
+    color: white;
+  }
+  #sixbox{
+    width: 800px;
+    height: 160px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-top: 2px solid silver;
+    padding-top: 10px;
+  }
+  .about{
+    height: 200px;
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+  }
+  .about ul li{
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .platform{
+    height: 200px;
+    width: 100x;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+  }
+  .platform ul li{
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .store{
+    height: 200px;
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+  }
+  .store ul li{
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .support{
+    height: 200px;
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+  }
+  .support ul li{
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .community{
+    height: 200px;
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+  }
+  .community ul li{
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .oaktree{
+    height: 200px;
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+  }
+  .oaktree ul li{
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  #footer{
+    width: 800px;
+    height: 40px;
+    border-top: solid 2px silver;
+    padding: 10px;
+  }
+  #footer ul li{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 12px;
+    border-right: 1px solid silver;
+    padding-right: 5px;
+  }
+  #footer ul li:last-child{
+    border-right: none;
+  }

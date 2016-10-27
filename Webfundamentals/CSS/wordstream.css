@@ -1,0 +1,234 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+#container{
+  width: 960px;
+  margin: 0px auto;
+  padding: 5px;
+}
+#banner{
+  background-color: white;
+  height: 150px;
+  width: 960px;
+}
+.nav{
+  background: white;
+  height: 20px;
+  width: 960px;
+}
+.nav ul li{
+  display: inline-block;
+  margin-left: 30px;
+}
+.nav ul li a{
+  color: silver;
+  text-decoration: none;
+  font-size: 12px;
+}
+.nav ul{
+  margin-left: 350px;
+}
+.nav input{
+  background-color: #217BA5;
+  padding-left: 10px;
+  padding-right: 10px;
+  color:white;
+}
+.wave{
+  background-color: white;
+  height: 90px;
+  width: 960px;
+  font-family: sans-serif;arial;
+}
+.wave img{
+  display: inline;
+  margin-bottom: 10px;
+}
+.wave h1{
+  display: inline;
+  height: 60px;
+  color: #217BA5;
+  vertical-align: top;
+  line-height: 60px;
+}
+h1 span{
+  color: grey;
+  vertical-align: top;
+  margin-top: 20px;
+}
+.word{
+  background-color: #217BA5;
+  height: 45px;
+  width: 960px;
+}
+.word{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.word{
+  color: white;
+}
+#body{
+  background-color: white;
+  width: 960px;
+  height: 600px;
+}
+#left{
+  background-color: white;
+  width: 200px;
+  height: 600px;
+  display: inline-block;
+  vertical-align: top;
+}
+.demo{
+  background-color: white;
+  width: 200px;
+  height: 265px;
+  padding: 5px;
+}
+.demo h3{
+  color: #217BA5;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  margin-top: 75px;
+}
+.demo h5{
+  color: orange;
+  padding-left: 5px;
+}
+.demo p{
+  padding-left: 5px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.demo input{
+  margin-left: 20px;
+  padding: 5px;
+  height: 30px;
+  width: 130px;
+  margin-top: 5px;
+  background-color: #217BA5;
+  color: white;
+}
+.performance{
+  background: linear-gradient(grey, silver);
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+}
+.performance img{
+  width: 200px;
+  height: 100px;
+}
+.performance h4{
+  color: #217BA5;
+  padding: 15px;
+  margin-left: 10px;
+}
+.performance p{
+  margin-left: 15px;
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+.performance input{
+  background-color: #217BA5;
+  padding: 5px;
+  margin-left: 15px;
+  color: white;
+  margin-top: 10px;
+}
+#right{
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  display: inline-block;
+  padding-left: 15px;
+}
+.phone{
+  background-color: white;
+  height: 60px;
+  width: 760px;
+  vertical-align: top;
+  padding-top: 10px;
+  font-size: 12px;
+}
+.phone img{
+  margin-left: 500px;
+}
+.numbers{
+  display: inline-block;
+  color: grey;
+}
+.numbers h4{
+  color: #217BA5;
+}
+.PPC{
+  background-color: white;
+  height: 240px;
+  width: 770px;
+  border-top: 1px solid silver;
+  padding: 10px;
+}
+.PPC p{
+  font-size: 14px;
+  padding: 15px;
+}
+.PPC ul{
+  font-size: 14px;
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+.PPC ul li{
+  padding-bottom: 10px;
+}
+.PPC h3{
+  color: #217BA5;
+  margin-left: 10px;
+}
+.drive{
+  background-color: white;
+  height: 100px;
+  width: 770px;
+  display: inline-block;
+  border: 5px solid #217BA5;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+.drive img{
+  margin-left: 10px;
+}
+.drive2{
+  display: inline-block;
+  width: 650px;
+  padding: 15px;
+}
+.drive2 h3{
+  color:#217BA5;
+}
+.drive2 p{
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.drive2 input{
+  background-color: green;
+  color: white;
+  padding: 5px 15px 5px 15px;
+}
+.automation{
+  background-color: white;
+  height: 100px;
+  width: 770px;
+  margin-left: 15px;
+}
+.automation h4{
+  color: #217BA5;
+  margin-bottom: 10px;
+}
+.automation p{
+  font-size: 12px;
+}

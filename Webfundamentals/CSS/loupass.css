@@ -1,0 +1,24 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#wrapper{
+  width: 960px;
+  background-color: grey;
+  padding: 20px;
+}
+#header{
+  background-color: red;
+  margin-bottom:10px;
+}
+#home{
+  background-color: brown;
+  display: inline-block;
+}
+#body{
+  background-color: green;
+  display: inline-block;
+}
+#footer{
+  background-color: purple;
+}

@@ -1,0 +1,33 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+#container{
+  width: 960px;
+  margin: 0px auto;
+  padding: 5px;
+}
+.toprow{
+  width: 960px;
+  height: 200px;
+}
+.toprow img{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 2px;
+}
+.bottomrow{
+  width: 960px;
+  height: 200px;
+  padding-top: 5px;
+}
+.bottomrow img{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  margin:2px;
+}
+#Toggle{
+  margin: 10px;
+}
